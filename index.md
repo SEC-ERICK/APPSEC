@@ -48,7 +48,7 @@ echo ""
 echo ""
 
 sniper -t $target
-### NMAP ### 
+### NMAP 
 
       # CREAR NUEVOS DIRECTORIOS PARA LOS RESULTADOS
        ## mkdir -p "$FILE_PATH/IG"
@@ -68,7 +68,7 @@ nmap -A -Pn -n -T4 -sV -O -v $target
 nmap $target
 nmap -sV -O -v  $target
 
-###  AMASS ### 
+###  AMASS 
 echo " ###########################################"
 echo " ###           AMASS                     ##"
 echo " ###########################################"
