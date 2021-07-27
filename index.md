@@ -159,11 +159,17 @@ wpscan --url $target -e u
 done
 
 ```
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Herramientas
+Listado de herramientas que necesitas
+### OWASP ZAP
+OWASP ZAP es un escáner de seguridad web de código abierto. Pretende ser utilizado como una aplicación de seguridad y como una herramienta profesional para pruebas de penetración. Es uno de los proyectos más activos de OWASP. 
+[Descargar](https://www.zaproxy.org/download/). 
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SEC-ERICK/SEC-ERICK/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Docker
+
+Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos
+[Descargar](https://www.docker.com/products/docker-desktop). 
 
 ### Support or Contact
 
