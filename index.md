@@ -32,10 +32,6 @@ Syntax highlighted code block
 ```markdown
 Syntax SCRIPT PRUEBAS
 
-# Header 1
-## Header 2
-### Header 3
-
 #!/bin/bash
 for target in $(cat url)
 do
