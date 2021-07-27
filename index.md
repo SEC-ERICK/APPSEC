@@ -48,7 +48,7 @@ echo ""
 echo ""
 
 sniper -t $target
-### NMAP 
+# NMAP 
 
       # CREAR NUEVOS DIRECTORIOS PARA LOS RESULTADOS
        ## mkdir -p "$FILE_PATH/IG"
@@ -68,7 +68,7 @@ nmap -A -Pn -n -T4 -sV -O -v $target
 nmap $target
 nmap -sV -O -v  $target
 
-###  AMASS 
+# AMASS 
 echo " ###########################################"
 echo " ###           AMASS                     ##"
 echo " ###########################################"
@@ -81,14 +81,14 @@ amass enum -brute -src -d $target -demo
 amass db -d $target -enum 1 -summary
 amass intel -d $target -whois
 
-###  THE HARVESTER ### 
+# THE HARVESTER 
 echo " ###########################################"
 echo " ###           THE HARVESTER             ##"
 echo " ###########################################"
 
 theharvester -d $target -b all 
 
-###  NIKTO  ### 
+# NIKTO
 echo " ###########################################"
 echo " ###           NIKTO                      ##"
 echo " ###########################################"
@@ -96,58 +96,59 @@ echo " ###########################################"
 nikto -h $target -Display 1234EP 
 nikto -h $target -Tuning 12348abde -mutate 3456 -ssl -list-plugins
 
-###  WHATWEB ### 
+# WHATWEB 
 echo " ###########################################"
 echo " ###           WHATWEB                    ##"
 echo " ###########################################"
 whatweb -v  $target -a 3
 
-### SSLSCAN  ### 
+# SSLSCAN  
 echo " ###########################################"
 echo " ###           SSLSCAN                    ##"
 echo " ###########################################"
 ##sslscan $target
 
-###  SQLMAP ### 
+# SQLMAP 
 echo " ###########################################"
 echo " ###           SQLMAP                     ##"
 echo " ###########################################"
 
 ##sqlmap -u $target  --tables --dbs --dump --current-db --current-user --privileges
-###   WAFW00F### 
+
+# WAFW00F
 echo " ###########################################"
 echo " ###           WAFW00F                    ##"
 echo " ###########################################"
 wafw00f $target
 
-###   DIRB ### 
+# DIRB
 echo " ###########################################"
 echo " ###           DIRB                    ##"
 echo " ###########################################"
  dirb https://$target -w
 
-###  Hakrawler  ### 
+# Hakrawler 
 echo " ###########################################"
 echo " ###           Hakrawler                   ##"
 echo " ###########################################"
 
 ~/go/bin/hakrawler --url $target  -depth 4
 
-###   XSStrike   ### 
+# XSStrike
 echo " ###########################################"
 echo " ###           XSStrike                   ##"
 echo " ###########################################"
 
  xsstrike -u $target  --blind --console-log-level INFO --path
 
-###   CURL ### 
+# CURL 
 echo " ###########################################"
 echo " ###           CURL                   ##"
 echo " ###########################################"
 
 curl -v https://$target
 
-###   WPSCAN  ### 
+# WPSCAN 
 echo " ###########################################"
 echo " ###           WPSCAN                  ##"
 echo " ###########################################"
