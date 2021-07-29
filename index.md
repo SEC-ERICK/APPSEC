@@ -138,7 +138,7 @@ Listado de herramientas que necesitas
 ### OWASP ZAP
 OWASP ZAP es un escáner de seguridad web de código abierto. Pretende ser utilizado como una aplicación de seguridad y como una herramienta profesional para pruebas de penetración. Es uno de los proyectos más activos de OWASP. 
 [Descargar](https://www.zaproxy.org/download/). 
-[Configuracion para pentest](https://github.com/SEC-ERICK/APPSEC/blob/gh-pages/configuracio%CC%80n%20y%20tunning%20de%20ZAP%20para%20pentest.docx)
+[Configuracion para pentest](https://github.com/SEC-ERICK/APPSEC/raw/gh-pages/doc/configuraci%C3%B2n%20y%20tunning%20de%20ZAP%20para%20pentest.docx)
 
 ### Docker
 
